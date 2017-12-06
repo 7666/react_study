@@ -1,0 +1,143 @@
+*{
+  border:0px;
+  padding:0px;
+  margin:0px;
+}
+html,body,#root,.main{
+  height:100%;
+}
+
+.main{
+  position:relative;
+}
+.clearfix::after,
+.clearfix::before{
+  content:'';
+  clear:both;
+  display: block;
+}
+.toplist{
+  list-style: none;
+  float: right;
+}
+.toplist > li{
+  float: left;
+  margin: 0 10px;
+  height:50px;
+  line-height: 50px;
+  font-size: 13px;
+}
+.toplist > li > a{
+  color: #333;
+  font-weight: bold;
+}
+.toplist > li > a:hover{
+  color:#00c;
+}
+.toplist > li:nth-child(7) > a,
+.toplist > li:nth-child(8) > a{
+  font-weight:normal;
+}
+.toplist > li:nth-child(9) >a{
+  background-color: #3385ff;
+  color: #fff;
+  text-decoration:none;
+  height:43px;
+  width:66px;
+  display: inline-block;
+  line-height: 43px;
+  text-align: center;
+}
+.middle{
+  width:700px;
+  margin:0 auto ;
+  text-align: center;
+  margin-top:120px;
+  display: block;
+  position: relative;
+}
+.middle img{
+  width:270px;
+  height:129px;
+}
+.middle .f{
+  position:absolute;
+  top:12px;
+  right:116px;
+  height:16px;
+  width:18px;
+  background: url('../f.png') no-repeat top center;
+}
+.middle input{
+  width:540px;
+  height:22px;
+  border:0px;
+  box-sizing: border-box;
+}
+.middle input:focus{
+  outline: none;
+}
+.middle button{
+  width:100px;
+  height:38px;
+  background-color:#3385ff;
+  color:#fff;
+  border:1px solid #2d78f4;
+  font-size: 15px;
+  vertical-align: middle;
+  line-height: 38px;
+  box-sizing: border-box;
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+.middle .baidu{
+  height:40px;
+  line-height:40px;
+  margin-top:20px;
+  position: relative;
+  border: 1px solid #3385ff;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left:10px;
+}
+.middle ul{
+  border:1px solid #3385ff;
+  list-style: none;
+  text-align: left;
+  width:598px;
+  position:relative;
+  top:0px;
+}
+.middle ul li{
+  padding-top:10px;
+  border: 1px solid #ccc;
+}
+.middle ul li.on{
+  background-color: #ccc;
+}
+.right{
+  position: absolute;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  width:85px;
+  border:1px solid #e7e7e7;
+  background-color: #f9f9f9;
+}
+.bottom{
+  position:absolute;
+  bottom:200px;
+  width:500px;
+  text-align: center;
+  margin:0 auto;
+  left:50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+.bottom .erweima{
+  width:60px;
+  height:60px;
+  display: inline-block;
+  background: url(../zbios_efde696.png);
+}
